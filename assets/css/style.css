@@ -304,13 +304,40 @@ footer {
 
 
 @media screen and (max-width: 980px){
+    .wrapper{
+        width: 980px;
+    }
+
+    .navbar-content {
+        width: 730px;
+    }
+
+    .name {
+        width: 30%;
+    }
+
     .page-content {
         width: 730px;
     }
 
     .main-content{
-        
+        width: 420px;
     }
+
+    img.project {
+        width: 360px;
+        height: 270px;
+    }
+
+    .project-container{
+        width: 315px; 
+    }
+
+
+    #project-two, #project-four {
+        margin-left: 0;
+    }
+
     .connect-social {
         margin-left: 0px;
         /* float: right; */
@@ -319,7 +346,32 @@ footer {
 }
 
 @media screen and (max-width: 768px){
-    
+    .wrapper {
+        width: 768px;
+    }
+
+    .navbar-content {
+        width: 730px;
+    }
+
+    .name {
+        width: 30%;
+    }
+
+    .main-content {
+        width: 670px;
+    }
+
+    img.project {
+        width: 315px;
+        height: 235px;
+        margin-bottom: 40px;
+    }
+
+    .connect-social {
+        width: 670px;
+        margin-top: 40px;
+    }
 }
 
 
