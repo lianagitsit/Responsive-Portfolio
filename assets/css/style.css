@@ -317,7 +317,7 @@ footer {
 
 
 
-@media screen and (max-width: 980px){
+@media screen and (min-width: 769px) and (max-width: 980px){
     .wrapper{
         width: 980px;
     }
@@ -365,7 +365,7 @@ footer {
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 641px){
     .wrapper {
         width: 768px;
     }
@@ -376,6 +376,10 @@ footer {
 
     .name {
         width: 30%;
+    }
+
+    .page-content {
+        margin: 40px 20px 0;
     }
 
     .main-content {
@@ -390,6 +394,12 @@ footer {
         width: 315px;
         height: 235px;
         margin-bottom: 40px;
+    }
+
+    #project-two_container > .banner,
+    #project-four_container > .banner {
+        width: 100%;
+        /* left: 0; */
     }
 
     .connect-social {
@@ -458,6 +468,12 @@ footer {
 
     #project-two, #project-four {
         margin-left: 0;
+    }
+
+    #project-two_container > .banner,
+    #project-four_container > .banner {
+        width: 100%;
+        left: 0;
     }
 
     .page-content {
